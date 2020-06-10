@@ -10,6 +10,10 @@ body
   
 }
 
+:root {
+  --mainColor: #33FFA4;
+}
+
 #menuToggle
 {
   display: block;
@@ -25,15 +29,23 @@ body
 
 #menuToggle a
 {
-  text-decoration: none;
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
   color: #d3d3d3;
-  
-  transition: color 0.3s ease;
+  text-decoration: none;
+  transition: background-size .2s;
+
 }
 
 #menuToggle a:hover
 {
-  color: #adadad;
+  background-size: 4px 50px;
 }
 
 
@@ -290,9 +302,7 @@ div h3 {
   margin-right: 10%;
 }
 
-:root {
-  --mainColor: #33FFA4;
-}
+
 
 a.anim {
   background:
