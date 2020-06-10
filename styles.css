@@ -272,3 +272,10 @@ display: inline-block;
 .footer-nav p {
 	text-align: center;
 }
+
+h2 {
+  text-align: justify;
+  letter-spacing: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
