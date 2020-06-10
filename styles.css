@@ -252,15 +252,7 @@ display: inline-block;
   border-radius: 25px;
 }
 
-.github-icon{
-  margin-top: .625em;
-	width: 40px;
-	height: 40px;
-	opacity: .6;
-	filter: alpha(opacity=60); /* For IE8 and earlier */
-  border-radius: 25px;
-  transform: rotate(180deg);
-}
+
 
 .twitter-icon:hover,
 .facebook-icon:hover,
