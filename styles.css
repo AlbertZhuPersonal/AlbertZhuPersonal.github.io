@@ -273,7 +273,7 @@ display: inline-block;
 	text-align: center;
 }
 
-h2 {
+div h2 {
   text-align: justify;
   letter-spacing: 3px;
   margin-left: 10%;
