@@ -83,7 +83,6 @@ body
 #menuToggle span:first-child
 {
   transform-origin: 0% 0%;
- 
 }
 
 #menuToggle span:nth-last-child(2)
@@ -150,7 +149,6 @@ body
 {
   padding: 10px 0;
   font-size: 22px;
- 
 }
 
 /*
