@@ -156,3 +156,13 @@ body
 {
   transform: none;
 }
+
+/** centers the logo 
+*/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
