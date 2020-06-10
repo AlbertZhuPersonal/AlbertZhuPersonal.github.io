@@ -217,7 +217,8 @@ display: inline-block;
 .site-footer {
   background-color: #838383;
 	text-align: center;
-	margin: 10px 0;
+  margin-bottom: 0px;
+  width: 100%;
 	padding: 10px 0;
 }
 
