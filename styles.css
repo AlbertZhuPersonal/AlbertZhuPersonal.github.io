@@ -181,7 +181,7 @@ p {
   letter-spacing: 2px;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 9%;
+  margin-bottom: 8%;
 }
 
 
@@ -283,5 +283,9 @@ div h2 {
 
 div img.me {
   float: right;
- 
+}
+
+div h3 {
+  margin-left: 10%;
+  margin-right: 10%;
 }
