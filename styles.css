@@ -169,7 +169,8 @@ body
 }
 
 
-p.ex1 {
-  margin-left: 0%;
-  margin-right: 0%;
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
 }
