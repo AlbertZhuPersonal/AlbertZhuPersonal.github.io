@@ -124,7 +124,7 @@ body
 {
   position: absolute;
   width: 225px;
-  height: 500px;
+  height: 100%;
   overflow: hidden;
   margin: -100px 0 0 -50px;
   padding: 50px;
