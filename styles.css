@@ -252,13 +252,24 @@ display: inline-block;
   border-radius: 25px;
 }
 
+.github-icon{
+  margin-top: .625em;
+	width: 40px;
+	height: 40px;
+	opacity: .6;
+	filter: alpha(opacity=60); /* For IE8 and earlier */
+  border-radius: 25px;
+  transform: rotate(180deg);
+}
+
 .twitter-icon:hover,
 .facebook-icon:hover,
 .instagram-icon:hover,
 .linkedin-icon:hover,
 .googleplus-icon:hover,
 .youtube-icon:hover,
-.foursquare-icon:hover {
+.foursquare-icon:hover,
+.github-icon:hover {
 	opacity: 1.0;
 	filter: alpha(opacity=100); /* For IE8 and earlier */
 }
