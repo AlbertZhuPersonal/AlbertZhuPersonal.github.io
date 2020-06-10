@@ -189,7 +189,7 @@ p {
   color: #2f4f4f;
 width: auto;
 display: inline-block;
-
+font-size: 33px;
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #2f4f4f; /* The typwriter cursor */
