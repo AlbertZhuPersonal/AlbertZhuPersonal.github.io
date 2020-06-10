@@ -170,7 +170,9 @@ body
 
 
 p {
-  text-indent: 50px;
+
   text-align: justify;
   letter-spacing: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
