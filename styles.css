@@ -193,7 +193,7 @@ display: inline-block;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #2f4f4f; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 5% auto; /* Gives that scrolling effect as the typing happens */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   text-align: center;
   animation: 
