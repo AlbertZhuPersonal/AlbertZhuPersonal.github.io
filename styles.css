@@ -100,7 +100,6 @@ body
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #d3d3d3;
-  position: fixed;
 }
 
 /*
@@ -118,7 +117,6 @@ body
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
-  position: fixed;
 }
 
 /*
@@ -183,9 +181,6 @@ p {
 }
 
 
-
-/*
-
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
   color: #2f4f4f;
@@ -203,7 +198,6 @@ position: relative;
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
 }
- 
 
 /* The typing effect */
 @keyframes typing {
@@ -216,4 +210,3 @@ position: relative;
   from, to { border-color: transparent }
   50% { border-color: #2f4f4f }
 }
-
