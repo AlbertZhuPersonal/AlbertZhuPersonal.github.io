@@ -279,3 +279,7 @@ div h2 {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+div img.me {
+  margin-right: 10%;
+}
