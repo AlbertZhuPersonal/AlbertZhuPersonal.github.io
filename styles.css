@@ -131,7 +131,7 @@ body
 {
   position: absolute;
   width: 225px;
-  height: 250px;
+  height: 260px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -215,13 +215,14 @@ display: inline-block;
 
 /*social media footer */
 .site-footer {
-  background-color: #919191;
+  background-color: #2f4f4f;
+  opacity: 0.8;
 	text-align: center;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-	padding: 5px 0;
+	padding: 2px 0;
 }
 
 #social-wrapper {
