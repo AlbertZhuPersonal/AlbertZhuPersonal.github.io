@@ -7,7 +7,7 @@ body
   background: #F2F2F2;
   
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-  
+  display: table-cell;
 }
 
 :root {
@@ -292,6 +292,13 @@ div h3 {
   margin-right: 10%;
 }
 
+div h3.languages {
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 div img.me {
   float: right;
 }
@@ -393,4 +400,19 @@ h1 {
     width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mc styles css */
+
 
