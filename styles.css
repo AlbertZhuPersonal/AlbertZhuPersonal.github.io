@@ -444,7 +444,7 @@ fieldset legend {
     position: relative;
     cursor: pointer;
     padding: 0.75rem 1.25rem;
-	 margin: 0.25rem 0;
+	 margin: 0.25rem 7%;
 }
 
 /* Hide Radio Buttons and Submit Button */
@@ -482,36 +482,3 @@ form { counter-reset: quiz-score }
 .message { display: none; }
 form:valid .message { display: block }
 
-
-/*
-#page-wrap		    { width: 500px; 
-  margin-top: 0;
-  margin-bottom: 8%;
-  margin-left: auto;
-  margin-right: auto;
-   }
-
-#quiz input {
-  vertical-align: middle;
-}
-
-#quiz ol {
- margin: 0 0 10px 20px;
-}
-
-#quiz ol li {
- margin: 0 0 20px 0;
-}
-
-#quiz ol li div {
- padding: 4px 0;
-}
-
-#quiz h3 {
- font-size: 17px; margin: 0 0 1px 0; color: #666;
-}
-
-#results {
-  font: 44px Georgia, Serif;
-}
-*/
