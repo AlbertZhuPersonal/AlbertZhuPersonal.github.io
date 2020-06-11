@@ -285,6 +285,13 @@ div h2 {
   margin-right: 10%;
 }
 
+div h3 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 div img.me {
   float: right;
 }
@@ -386,3 +393,4 @@ h1 {
     width: 100%;
   }
 }
+
