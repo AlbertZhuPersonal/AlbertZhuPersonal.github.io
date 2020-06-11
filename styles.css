@@ -310,7 +310,7 @@ div h3 {
 
 
 
-a.anim {
+/* a.anim {
   background:
      linear-gradient(
        to bottom, var(--mainColor) 0%,
@@ -326,7 +326,39 @@ a.anim {
 
 a.anim:hover {
   background-size: 4px 50px;
+} */
+
+
+.bg_slider {
+  --initialTextColor: #FFF;
+  --slideTextColor: #272838;
+
+  --initialBgColor: #272838;
+  --slideBgColor: #FFF;
+
+  color: var(--initialTextColor);
+
+  background-image: linear-gradient(90deg,
+      var(--initialBgColor) 0%,
+      var(--initialBgColor) 50%,
+      var(--slideBgColor) 50%,
+      var(--slideBgColor) 100%);
+  background-size: 200%;
+  transition: background-position .3s cubic-bezier(.47, .1, 1, .63),
+    color .2s linear;
+  transition-delay: 0.0s, 0.15s;
 }
+
+.bg_slider:hover {
+  color: var(--slideTextColor);
+  cursor: pointer;
+  background-position: -50% 100%;
+}
+
+
+
+
+
 
 
 
