@@ -365,7 +365,9 @@ h1 {
 
 /* Content */
 .content {
- margin: 7px;
+ margin-left: 7px;
+ margin-right: 7px;
+ margin-bottom: 8%;
   padding: 10px;
   border-radius: 25px;
   border: 2px solid #F05A4E; 
