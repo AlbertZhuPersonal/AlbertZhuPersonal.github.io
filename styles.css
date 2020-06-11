@@ -30,8 +30,8 @@ body
 #menuToggle a
 {
   linear-gradient(
-    to bottom, var(--mainColor) 0%,
-    var(--mainColor) 100%
+    to bottom, var(#33FFA4) 0%,
+    var(#33FFA4) 100%
   );
  background-position: 0 100%;
  background-repeat: repeat-x;
