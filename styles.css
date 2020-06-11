@@ -11,7 +11,7 @@ body
 }
 
 :root {
-  --mainColor: #33FFA4;
+  --mainColor: #FFC733;
 }
 
 #menuToggle
@@ -136,7 +136,7 @@ body
 {
   position: absolute;
   width: 200px;
-  height: 360px;
+  height: 350px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
