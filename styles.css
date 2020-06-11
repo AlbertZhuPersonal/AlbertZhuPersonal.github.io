@@ -415,4 +415,6 @@ h1 {
 
 /*mc styles css */
 
-
+html {
+  display: table;
+}
