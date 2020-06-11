@@ -415,7 +415,12 @@ h1 {
 
 /*mc styles css */
 
-#page-wrap		    { width: 500px; margin: 0 auto; }
+#page-wrap		    { width: 500px; 
+  margin-top: 0;
+  margin-bottom: 8%;
+  margin-left: auto;
+  margin-right: auto;
+   }
 
 #quiz input {
   vertical-align: middle;
