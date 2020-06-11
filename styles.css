@@ -188,7 +188,7 @@ p {
   margin-bottom: 8%;
 }
 
-div p.answer {
+div.answer {
   font-size: 20px;
   letter-spacing: 2px;
 }
