@@ -270,8 +270,16 @@ font-size: 29px;
 .youtube-icon:hover,
 .foursquare-icon:hover,
 .github-icon:hover {
-	opacity: 1.0;
+	opacity: 1;
 	filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+div a.submit {
+  opacity: 0.75;
+}
+
+div a.submit:hover {
+  opacity: 1;
 }
 
 .footer-nav p {
