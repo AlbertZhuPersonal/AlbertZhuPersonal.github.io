@@ -149,12 +149,12 @@ transition: background-size .2s;
 #menu
 {
   position: absolute;
-  width: 250px;
-  height: 500px;
+  width: 200px;
+  height: 300px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  opacity: 0.8;
+  opacity: 0.95;
  
   
   background: #2f4f4f;
