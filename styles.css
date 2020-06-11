@@ -365,9 +365,10 @@ h1 {
 
 /* Content */
 .content {
-  margin-left: 10%;
-  margin-right: 10%;
+
   padding: 10px;
+  border-radius: 25px;
+  border: 2px solid #73AD21; 
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
