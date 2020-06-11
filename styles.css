@@ -435,7 +435,8 @@ fieldset {
 }
 
 fieldset legend {
-	font-weight: 700;
+  font-weight: 700;
+  margin: 8px 7%;
 }
 
 .answer__item {
@@ -445,7 +446,7 @@ fieldset legend {
     cursor: pointer;
     padding: 0.75rem 1.25rem;
    margin: 0.25rem 7%;
-   opacity: 0.8;
+   opacity: 0.72;
 }
 
 .answer__item:hover {
