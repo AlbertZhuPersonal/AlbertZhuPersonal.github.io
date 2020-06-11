@@ -29,23 +29,16 @@ body
 
 #menuToggle a
 {
-  background:
-     linear-gradient(
-       to bottom, var(--mainColor) 0%,
-       var(--mainColor) 100%
-     );
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 4px 4px;
-  color: #d3d3d3;
+  
   text-decoration: none;
-  transition: background-size .2s;
-
+  color: #d3d3d3;
+  
+  transition: color 0.3s ease;
 }
 
 #menuToggle a:hover
 {
-  background-size: 4px 50px;
+  color: #adadad;
 }
 
 
