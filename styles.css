@@ -437,6 +437,7 @@ fieldset {
 fieldset legend {
   font-weight: 700;
   margin: 8px 7%;
+  font-size: 24px;
 }
 
 .answer__item {
