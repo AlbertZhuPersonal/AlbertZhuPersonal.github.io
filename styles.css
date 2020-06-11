@@ -365,14 +365,16 @@ h1 {
 
 /* Content */
 .content {
-  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #F2F2F2;
   padding: 10px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
-    width: 50%;
+    width: 40%;
   }
 }
 
