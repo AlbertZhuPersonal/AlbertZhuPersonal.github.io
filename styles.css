@@ -365,10 +365,10 @@ h1 {
 
 /* Content */
 .content {
-
+background-color: #A9A9A9;
   padding: 10px;
-  border-radius: 25px;
-  border: 2px solid #73AD21; 
+  opacity: 0.8;
+   
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
