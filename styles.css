@@ -313,7 +313,7 @@ div h3 {
 
 
 
-a.anim {
+a {
   background:
      linear-gradient(
        to bottom, var(--mainColor) 0%,
@@ -327,7 +327,7 @@ a.anim {
   transition: background-size .2s;
 }
 
-a.anim:hover {
+a:hover {
   background-size: 4px 50px;
 } 
 
