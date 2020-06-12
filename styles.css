@@ -27,7 +27,7 @@ body
   user-select: none;
 }
 
-p.none
+
 
 #menuToggle a
 {
@@ -570,3 +570,5 @@ img.image {
   display: inline-block;
   opacity: 0;
 }
+
+p.none
