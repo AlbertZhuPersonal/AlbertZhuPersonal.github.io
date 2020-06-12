@@ -572,3 +572,8 @@ img.image {
 }
 
 p.none
+
+
+.boxed {
+  border: 7px solid green ;
+}
