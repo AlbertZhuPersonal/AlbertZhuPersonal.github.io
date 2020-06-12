@@ -514,6 +514,7 @@ image {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+  width: 10%
 }
 
 .ml5 {
@@ -521,6 +522,7 @@ image {
   font-weight: 300;
   font-size: 4.5em;
   color: #402d2d;
+  width: 30%
   margin-left: auto;
   margin-right: auto;
 }
