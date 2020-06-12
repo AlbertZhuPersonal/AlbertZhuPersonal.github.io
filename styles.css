@@ -512,9 +512,10 @@ form:valid .message { display: block }
 
 image {
   margin-top: 30px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%
+  width: 50%;
 }
 
 .ml5 {
