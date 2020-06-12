@@ -521,7 +521,8 @@ image {
   font-weight: 300;
   font-size: 4.5em;
   color: #402d2d;
-  position: center
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ml5 .text-wrapper {
