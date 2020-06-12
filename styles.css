@@ -510,13 +510,18 @@ form:valid .message { display: block }
   
 }
 
-
+image {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .ml5 {
   position: relative;
   font-weight: 300;
   font-size: 4.5em;
   color: #402d2d;
+  position: center
 }
 
 .ml5 .text-wrapper {
