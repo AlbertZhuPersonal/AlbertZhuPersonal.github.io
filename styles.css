@@ -577,3 +577,12 @@ p.none
 .boxed {
   border: 7px solid green ;
 }
+
+
+#example2 {
+  padding: 5px;
+  background: #33FF95;
+  color: black;
+  opacity: 0.8;
+  background-clip: padding-box;
+}
