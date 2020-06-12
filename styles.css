@@ -530,7 +530,7 @@ img.image {
   display: block;
   position: relative;
   font-weight: 300;
-  font-size: 6.5em;
+  font-size: 5em;
   color: #402d2d;
   margin: auto;
   width: 100%;  
@@ -585,4 +585,4 @@ p.none
   color: black;
   opacity: 0.8;
   background-clip: padding-box;
-}
+};
