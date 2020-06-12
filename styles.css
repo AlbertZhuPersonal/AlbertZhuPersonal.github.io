@@ -512,6 +512,8 @@ form:valid .message { display: block }
   
 }
 
+p.none
+
 img.image {
   text-align:center;
   margin-top: 10px;
