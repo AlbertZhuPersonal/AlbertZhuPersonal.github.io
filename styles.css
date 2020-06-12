@@ -538,9 +538,8 @@ image {
 
 .ml5 .line {
   position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin: auto;
   height: 3px;
   width: 100%;
