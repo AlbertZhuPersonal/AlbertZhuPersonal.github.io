@@ -27,6 +27,8 @@ body
   user-select: none;
 }
 
+p.none
+
 #menuToggle a
 {
   text-decoration: none;
