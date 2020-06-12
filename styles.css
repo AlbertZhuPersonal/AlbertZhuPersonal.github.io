@@ -520,13 +520,13 @@ img.image {
 }
 
 .ml5 {
+  display: block;
   position: relative;
   font-weight: 300;
   font-size: 4.5em;
   color: #402d2d;
   width: 30%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .ml5 .text-wrapper {
