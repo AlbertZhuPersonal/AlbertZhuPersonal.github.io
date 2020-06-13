@@ -593,12 +593,12 @@ p.none
 .ml6 {
   position: relative;
   font-weight: 900;
-  font-size: 3.3em;
+  font-size: 7.3em;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
 }
 
-div {
-  animation-delay: 5s;
-}
 
 .ml6 .text-wrapper {
   position: relative;
