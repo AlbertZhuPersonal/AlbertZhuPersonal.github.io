@@ -3,7 +3,6 @@ body
   margin: 0;
   padding: 0;
   
-  /* make it look decent enough */
   background: #F2F2F2;
   
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
@@ -54,16 +53,14 @@ body
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0; 
+  z-index: 2; 
   
   -webkit-touch-callout: none;
   
 }
 
-/*
- * Just a quick hamburger
- */
+
 #menuToggle span
 {
   display: block;
@@ -99,10 +96,6 @@ body
   transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
 #menuToggle input:checked ~ span
 {
   opacity: 1;
@@ -111,9 +104,6 @@ body
 
 }
 
-/*
- * But let's hide the middle one.
- */
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
@@ -121,19 +111,12 @@ body
   
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
   
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
 #menu
 {
   position: absolute;
@@ -148,7 +131,6 @@ body
   background: #2f4f4f;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -162,9 +144,6 @@ body
   font-size: 22px;
 }
 
-/*
- * And let's slide it in from the left
- */
 #menuToggle input:checked ~ ul
 {
   transform: none;
@@ -345,15 +324,6 @@ a.anim:hover {
 
 
 
-
-
-
-
-
-
-
-
-
 * {
   box-sizing: border-box;
 }
@@ -421,98 +391,7 @@ h1.anim
 
 
 
-
-
-
-
-
-
-
-
-
-/*mc styles css */
-
-
-fieldset {
-	border: 0;
-	margin: 2rem 0;
-}
-
-fieldset legend {
-  font-weight: 700;
-  margin: 8px 7%;
-  font-size: 24px;
-}
-
-.answer__item {
-    background-color: #f6f6f6;
-    display: block;
-    position: relative;
-    cursor: pointer;
-    padding: 0.75rem 1.25rem;
-   margin: 0.25rem 7%;
-   opacity: 0.72;
-}
-
-.answer__item:hover {
-  opacity: 1.0;
-}
-
-.answer__item.last {
-  background-color: #f6f6f6;
-  display: block;
-  position: relative;
-  cursor: pointer;
-  padding: 0.75rem 1.25rem;
-  margin-top: 0.25rem;
-  margin-left: 7%;
-  margin-right: 7%;
-  margin-bottom: 9%;
- opacity: 0.72;
-}
-
-.answer__item.last:hover {
-opacity: 1.0;
-}
-
-/* Hide Radio Buttons and Submit Button */
-input[type="radio"], button {
-  display: none;
-}
-
-/* Any correct answer on any answered question, highlight in light green */
-:valid .answer__item--is-correct { background-color: rgba(61, 181, 64, 0.6) }
-
-/* Show any extra explanatory text */
-.answer__reveal-text { display: none; }
-:valid .answer__reveal-text { display: block }
-
-/* Any chosen answer, highlight in red */
-:checked + .answer__item { color: #ffffff; background-color: #c70000 }
-
-/* Any correctly chosen answer, highlight in bright green */
-:checked + .answer__item--is-correct { background-color: #3db540; }
-
-/* Show the icon for the selected answer */
-:checked + .answer__item .answer__icon { display: inline-block }
-
-
-/* prevent chosing another answer once chosen */
-:valid { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none }
-:valid + .answer__item { pointer-events: none }
-
-/* keep track of score */
-form { counter-reset: quiz-score }
-:checked + .answer__item--is-correct { counter-increment: quiz-score }
-.score:after { content: counter(quiz-score) "/" attr(data-question-count) }
-
-/* show score once quiz has been completed */
-.message { display: none; }
-form:valid .message { display: block }
-
-.ml3 {
-  
-}
+.ml3 
 
 p.none
 
@@ -571,8 +450,6 @@ img.image {
   display: inline-block;
   opacity: 0;
 }
-
-p.none
 
 
 .boxed {
