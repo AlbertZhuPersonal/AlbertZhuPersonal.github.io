@@ -530,7 +530,7 @@ img.image {
   display: block;
   position: relative;
   font-weight: 300;
-  font-size: 5em;
+  font-size: 5.5em;
   color: #402d2d;
   margin: auto;
   width: 100%;  
@@ -587,3 +587,29 @@ p.none
   opacity: 0.8;
   background-clip: padding-box;
 };
+
+
+
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+div {
+  animation-delay: 5s;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
