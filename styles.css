@@ -526,17 +526,17 @@ img.image {
  
 }
 
-.ml5 {
+.biganim {
   display: block;
   position: relative;
   font-weight: 300;
-  font-size: 4em;
+  font-size: 5em;
   color: #402d2d;
   margin: auto;
   width: 100%;  
 }
 
-.ml5 .text-wrapper {
+.biganim .text-wrapper {
   position: relative;
   display: inline-block;
   padding-top: 0.1em;
@@ -545,19 +545,20 @@ img.image {
   line-height: 1em;
 }
 
-.ml5 .line {
+.biganim .line {
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
+  background-color: #402d2d;
   margin:   auto;
   height: 3px;
   width: 100%;
-  background-color: #402d2d;
+  
   transform-origin: 0.5 0;
 }
 
-.ml5 .ampersand {
+.biganim .ampersand {
   font-family: Baskerville, serif;
   font-style: italic;
   font-weight: 400;
@@ -566,7 +567,7 @@ img.image {
   margin-left: -0.1em;
 }
 
-.ml5 .letters {
+.biganim .letters {
   display: inline-block;
   opacity: 0;
 }
