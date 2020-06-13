@@ -26,8 +26,6 @@ body
   user-select: none;
 }
 
-
-
 #menuToggle a
 {
   text-decoration: none;
@@ -40,7 +38,6 @@ body
 {
   color: #adadad;
 }
-
 
 #menuToggle input
 {
@@ -57,9 +54,7 @@ body
   z-index: 2; 
   
   -webkit-touch-callout: none;
-  
 }
-
 
 #menuToggle span
 {
@@ -77,13 +72,9 @@ body
   
   transform-origin: 4px 0px;
   
-
-
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
-
-
 }
 
 #menuToggle span:first-child
@@ -101,20 +92,17 @@ body
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #d3d3d3;
-
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
-  
 }
 
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
-  
 }
 
 #menu
@@ -126,15 +114,11 @@ body
   padding: 50px;
   padding-top: 125px;
   opacity: 0.95;
- 
-  
   background: #2f4f4f;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
@@ -151,14 +135,12 @@ body
 
 /** centers the logo 
 */
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-
 
 p {
   font-size: 20px;
@@ -175,37 +157,34 @@ div.answer {
   margin: 0px;
 }
 
-/* DEMO-SPECIFIC STYLES */
+
 .typewriter h1 {
   color: #2f4f4f;
 width: auto;
 display: inline-block;
 font-size: 29px;
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #2f4f4f; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  overflow: hidden; 
+  border-right: .15em solid #2f4f4f;
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
   text-align: center;
   animation: 
     typing 3.5s steps(30, end),
     blink-caret 0.75s step-end infinite;
 }
 
-/* The typing effect */
 @keyframes typing {
   from { max-width: 0 }
   to { max-width: 100% }
 }
 
-/* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #2f4f4f }
 }
 
-/*social media footer */
 .site-footer {
   background-color: #2f4f4f;
   opacity: 0.8;
@@ -221,7 +200,6 @@ font-size: 29px;
 	text-align: center;
 }
 
-/*Social Media Icons*/
 .social-wrapper {
 	text-align: center;
 }
@@ -242,7 +220,7 @@ font-size: 29px;
 	width: 40px;
 	height: 40px;
 	opacity: .75;
-	filter: alpha(opacity=60); /* For IE8 and earlier */
+	filter: alpha(opacity=60);
   border-radius: 25px;
 }
 
@@ -257,7 +235,7 @@ font-size: 29px;
 .foursquare-icon:hover,
 .github-icon:hover {
 	opacity: 1;
-	filter: alpha(opacity=100); /* For IE8 and earlier */
+	filter: alpha(opacity=100);
 }
 
 div a.submit {
@@ -302,8 +280,6 @@ div h3 {
   margin-right: 10%;
 }
 
-
-
 a.anim {
   background:
      linear-gradient(
@@ -321,8 +297,6 @@ a.anim {
 a.anim:hover {
   background-size: 4px 50px;
 } 
-
-
 
 * {
   box-sizing: border-box;
@@ -345,26 +319,22 @@ h1.anim
   margin: 8px -16px;
 }
 
-/* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
   padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
 }
 
-/* Clear floats after rows */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Content */
 .content {
  margin-left: 7px;
  margin-right: 7px;
@@ -374,22 +344,17 @@ h1.anim
   border: 3.5px solid #F05A4E; 
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
 }
-
-
-
 
 .ml3 
 
@@ -402,7 +367,6 @@ img.image {
   margin-left: auto;
   margin-right: auto;
   width: 10%;
- 
 }
 
 .ml5 {
@@ -433,7 +397,6 @@ img.image {
   margin:   auto;
   height: 3px;
   width: 100%;
-  
   transform-origin: 0.5 0;
 }
 
@@ -451,7 +414,6 @@ img.image {
   opacity: 0;
 }
 
-
 #example2 {
   padding: 5px;
   background: #33FF95;
@@ -460,14 +422,11 @@ img.image {
   background-clip: padding-box;
 };
 
-
-
 .ml6 {
   position: relative;
   font-weight: 900;
   font-size: 2em;
 }
-
 
 .ml6 .text-wrapper {
   position: relative;
@@ -501,5 +460,3 @@ div.an {
   from {opacity: 0;}
   to {opacity: 1;}
 }
-
-
