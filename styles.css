@@ -492,7 +492,7 @@ div.an {
   position: relative;
   animation: mymove 5s infinite;
   opacity: 0;
-  animation-delay: 3.25s;
+  animation-delay: 3.4s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
