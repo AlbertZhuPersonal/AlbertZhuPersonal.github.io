@@ -514,7 +514,9 @@ a.anima {
   color: #000;
   text-decoration: none;
   transition: background-size .2s;
- 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 a.anima:hover {
