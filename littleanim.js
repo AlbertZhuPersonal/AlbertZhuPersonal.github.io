@@ -1,5 +1,5 @@
 var textWrapper = document.querySelector('.ml6 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter' style='font-family: 'Candal', serif;'>$&</span>");
 
 anime.timeline({loop: true})
   .add({
