@@ -484,8 +484,9 @@ img.image {
 }
 
 div.an {
-  width: 100px;
-  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   color: red;
   position: relative;
   animation: mymove 5s infinite;
@@ -501,24 +502,3 @@ div.an {
 }
 
 
-
-a.anima {
-  background:
-     linear-gradient(
-       to bottom, var(--mainColor) 0%,
-       var(--mainColor) 100%
-     );
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 4px 4px;
-  color: #000;
-  text-decoration: none;
-  transition: background-size .2s;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-a.anima:hover {
-  background-size: 4px 50px;
-} 
