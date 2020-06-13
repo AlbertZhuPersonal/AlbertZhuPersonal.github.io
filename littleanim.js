@@ -1,5 +1,5 @@
 var textWrapper = document.querySelector('.ml6 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<a class='anim' href='https://github.com/theGitHubDude' target='_blank'><span class='letter'>$&</span></a>");
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: true})
   .add({
