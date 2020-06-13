@@ -4,7 +4,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<a class='anim' 
 anime.timeline({loop: true})
   .add({
   target: '.ml6',
-  duration: 1900
+  duration: 1850
 })
   .add({
     targets: '.ml6 .letter',
