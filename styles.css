@@ -487,3 +487,20 @@ img.image {
   display: inline-block;
   line-height: 1em;
 }
+
+div.an {
+  width: 100px;
+  height: 100px;
+  color: red;
+  position: relative;
+  animation: mymove 5s infinite;
+  opacity: 0;
+  animation-delay: 3.25s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes mymove {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
