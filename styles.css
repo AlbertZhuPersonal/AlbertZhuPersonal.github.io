@@ -283,8 +283,8 @@ div h3 {
 a.anim {
   background:
      linear-gradient(
-       to bottom, var(--mainColor) 0%,
-       var(--mainColor) 100%
+       to bottom, var(#7676DB) 0%,
+       var(#7676DB) 100%
      );
     background-position: 0 100%;
     background-repeat: repeat-x;
