@@ -11,6 +11,7 @@ body
 
 :root {
   --mainColor: #FFC733;
+  --mainBtnColor: #7676DB;
 }
 
 #menuToggle
@@ -283,8 +284,8 @@ div h3 {
 a.anim {
   background:
      linear-gradient(
-       to bottom, var(#7676DB) 0%,
-       var(#7676DB) 100%
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
      );
     background-position: 0 100%;
     background-repeat: repeat-x;
@@ -301,8 +302,8 @@ a.anim:hover {
 a.animBottomBtn {
   background:
      linear-gradient(
-       to bottom, var(#7676DB) 0%,
-       var(#7676DB) 100%
+       to bottom, var(--mainBtnColor) 0%,
+       var(--mainBtnColor) 100%
      );
     background-position: 0 100%;
     background-repeat: repeat-x;
