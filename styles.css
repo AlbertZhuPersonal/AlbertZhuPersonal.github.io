@@ -298,6 +298,24 @@ a.anim:hover {
   background-size: 4px 50px;
 } 
 
+a.animBottomBtn {
+  background:
+     linear-gradient(
+       to bottom, var(#7676DB) 0%,
+       var(#7676DB) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+a.animBottomBtn:hover {
+  background-size: 4px 50px;
+} 
+
 * {
   box-sizing: border-box;
 }
